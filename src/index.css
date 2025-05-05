@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.capt {
+    font-family: Recoleta;
+    font-weight: 600;
+    line-height: 65.25px;
+}
+
+.inf {
+    font-family: sans-serif;
+    font-weight: 400;
+    left: 130px;
+    top: 432px;
+}
+
+.inf2 {
+    font-family: Goudy Old Style;
+}
+
+p {
+    font-family: Maiandra GD;
+}
+
+.sort {
+    text-wrap: wrap;
+}
+
+.hh1 {
+    /* color: #163A24; */
+    font-size: 50px;
+    text-wrap: wrap;
+    line-height: 54px;
+}
+
+.pp {
+    font-size: 18px;
+    line-height: 27px;
+    text-wrap: wrap;
+}
+
+.one {
+    transition: all 0.5s;
+    box-shadow: 5px 5px 20px 0px #E9E4D5;
+}
+
+.one ul li {
+    margin-top: 8px;
+}
+
+.one:hover {
+    transform: scale(1.05);
+}
+
+.design:focus {
+    outline: none;
+    box-shadow: 0 0 10px purple;
+}
+
+.social a:nth-child(1) {
+    position: absolute;
+    right: 257px;
+    top: 50px;
+}
+
+.social a:nth-child(2) {
+    position: absolute;
+    right: 213px;
+    top: 50px;
+}
+
+.social a:nth-child(3) {
+    position: absolute;
+    right: 169px;
+    top: 49px;
+}
+
+.social a:nth-child(4) {
+    position: absolute;
+    right: 130px;
+    top: 50px;
+}
+
+.social a img:hover {
+    filter: drop-shadow(0 0 10px black);
+}
+
+ul li a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #198C36;
+    transition: all 0.5s;
+}
+
+.footer-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 150px;
+    right: 130px;
+    display: flex;
+    width: auto;
+    gap: 20px;
+
+}
+
+ul li a:hover {
+    text-decoration: underline 2px solid;
+}
